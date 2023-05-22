@@ -1,0 +1,89 @@
+:root {
+    --color-principal: #6edf39;
+    --color-secondary: #58b32e;
+    --color-negative: #fa3a3a;
+}
+
+.has-text-principal  {
+    color: var(--color-principal);
+}
+
+.has-background-principal {
+    background-color: var(--color-principal);
+}
+
+.has-text-secondary  {
+    color: var(--color-secondary);
+}
+
+.has-background-secondary {
+    background-color: var(--color-secondary);
+}
+
+.has-text-negative  {
+    color: var(--color-negative);
+}
+
+.has-text-grey2  {
+    color: #292f36;
+}
+
+.has-background-grey2 {
+    background-color: #292f36;
+}
+
+.has-text-grey3  {
+    color: #303841;
+}
+
+.has-background-grey3 {
+    background-color: #303841;
+}
+
+.has-text-grey4 {
+    color: #242b34;
+}
+
+.has-background-grey4 {
+    background-color: #1d232b;
+}
+
+.has-text-grey-lighter .shadowed {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.is-button {
+    border: 0px;
+    color: #000000;
+}
+
+
+.card1 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: white;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.overflox-fix {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#mentorDetails2 {
+    max-height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility  1s, opacity 1s;
+}
+
+#mentorDetails2.actived {
+    max-height:max-content;
+    visibility: visible;
+    opacity: 1;
+}
